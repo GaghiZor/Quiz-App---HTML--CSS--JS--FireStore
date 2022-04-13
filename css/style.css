@@ -1,0 +1,22 @@
+body {
+	font-size: 30px;
+}
+
+.container {
+	margin: auto;
+	background-color: rgba(33, 99, 255, 0.5);
+	max-height: 50vw;
+	max-width: 50vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.radiobox {
+	cursor: pointer;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+input[type=radio]:hover {
+	transform: scale(1.2);
+}

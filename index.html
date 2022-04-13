@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="quiz" class="container">
+			<!-- <p id="dummyData">
+				<span id="q1">{Intrebarea nr. x}</span>
+				<br>
+				<input type="radio" name="dummyNo1" class="checkbox" value="value1">Raspuns 1
+				<input type="radio" name="dummyNo1" class="checkbox" value="value2">Raspuns 2
+				<input type="radio" name="dummyNo1" class="checkbox" value="value3">Raspuns 3
+				<input type="radio" name="dummyNo1" class="checkbox" value="value4">Raspuns 4
+			</p> -->
+
+			<button onclick="checkAnswers()">
+				Check Answers
+			</button>
+		</div>
+		
+		<!-- Scripts -->
+		<script type="module" src="scripts/firestore.js"></script>
+		<script type="module" src="scripts/app.js"></script>
+		<script type="module">
+			// Define functions on the global window object
+			import { checkAnswers } from './scripts/app.js';
+			window.checkAnswers = checkAnswers;
+		</script>
+		
+	</body>
+</html>
