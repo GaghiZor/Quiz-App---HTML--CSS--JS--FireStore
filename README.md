@@ -1,4 +1,4 @@
-# Quiz-App---HTML--CSS--JS--Firestore
+StarWarsQuiz
 
 Star Wars Quiz App
 - [x] HTML
