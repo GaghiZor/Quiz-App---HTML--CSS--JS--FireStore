@@ -4,4 +4,4 @@ Star Wars Quiz App
 - [x] HTML
 - [x] CSS
 - [x] Javascript
-- [x] FireStore
+- [x] FireStore v9
