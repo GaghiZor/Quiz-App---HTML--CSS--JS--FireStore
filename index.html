@@ -16,6 +16,10 @@
 			<button onclick="checkAnswers()">
 				Check Answers
 			</button>
+
+			<button onclick="createDoc()">
+				Create Docs
+			</button>
 		</div>
 		
 		<!-- Scripts -->
@@ -23,8 +27,9 @@
 		<script type="module" src="scripts/app.js"></script>
 		<script type="module">
 			// Define functions on the global window object
-			import { checkAnswers } from './scripts/app.js';
+			import { checkAnswers, createDoc } from './scripts/app.js';
 			window.checkAnswers = checkAnswers;
+			window.createDoc = createDoc;
 		</script>
 		
 	</body>
