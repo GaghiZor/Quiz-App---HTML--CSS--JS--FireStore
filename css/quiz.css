@@ -1,0 +1,72 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(194, 170, 17, 0.25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(194, 170, 17, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #edd63e;
+    color: black;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: black;
+}
+
+#quiz {
+    padding: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* HUD */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+/* Progress Bar */
+#progress-bar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #edd63e;
+    margin-top: 1.5rem;
+}
+
+#progress-bar-full {
+    height: 3.4rem;
+    background-color: #edd63e;
+    width: 0%;
+}

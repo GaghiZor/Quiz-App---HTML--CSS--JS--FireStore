@@ -1,0 +1,33 @@
+:root {
+    background-image: none;
+}
+
+#final-text {
+    color: rgba(0, 225, 255, 1);
+}
+
+#logo {
+    margin: 4rem 4rem;
+}
+
+#final-score {
+    font-size: 4.2rem;
+	margin-bottom: 4rem;
+    font-style: italic;
+}
+
+#final-text-second {
+    font-size: 4.2rem;
+	margin-bottom: 4rem;
+	font-weight: 700;
+}
+
+#end {
+
+}
+
+.container {
+    margin-top: 5rem;
+    max-width: 90rem;
+    height: 100%;
+}
